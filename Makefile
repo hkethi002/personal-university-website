@@ -1,8 +1,10 @@
 move:
-	cp *.html *.css Makefile res bootstrap ..
+	cp *.html *.css Makefile ..
+	cp -r res bootstrap ..
 
 clean:
-	rm -f *.html *.css Makefile res bootstrap
+	rm -f *.html *.css Makefile
+	rmdir -r -f res bootstrap
 
 permission:
-	chmod 644 *.html *.css res bootstrap
+	chmod -r 644 *.html *.css res bootstrap
