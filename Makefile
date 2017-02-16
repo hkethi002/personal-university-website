@@ -7,4 +7,4 @@ clean:
 	rmdir -r -f res bootstrap
 
 permission:
-	chmod -r 644 *.html *.css res bootstrap
+	chmod 644 -R *.html *.css res bootstrap
