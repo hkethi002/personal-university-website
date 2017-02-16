@@ -1,6 +1,5 @@
 move:
-	cp *.html *.css ..
+	cp *.html *.css Makefile ..
 
 clean:
-	rm -f *.html *.css
-	
+	rm -f *.html *.css Makefile
