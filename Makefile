@@ -4,7 +4,8 @@ move:
 
 clean:
 	rm -f *.html *.css Makefile
-	rmdir -r -f res bootstrap
+	rm -rf res bootstrap
 
 permission:
-	chmod 644 -R *.html *.css res bootstrap
+	chmod 644 -R *.html *.css
+	chmod 777 bootstrap/* bootstrap/js/* bootstrap/css/* bootstrap/fonts/* res/* bootstrap res 
