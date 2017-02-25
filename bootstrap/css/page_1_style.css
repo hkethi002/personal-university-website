@@ -1,6 +1,50 @@
+
 body {
   background-color: #42f4c5;
+  height: 100%;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.inner {
+
+  background: rgba(0, 0, 0, 0.3);
+
+  padding: 150px 150px 150px 150px;
 }
 .jumbotron {
-  background-color: #42cef4;
+  /*background-color: #42cef4;*/
+  min-height: 100%;
+  background-image: url("../../res/sky-019.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+ #tweet {
+
+ }
+
+#mountains {
+  color: #ffffff;
+  padding: 0;
+  min-height: 100%;
+  background-image: url("../../res/zion.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#innerMountains {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 350px;
 }
