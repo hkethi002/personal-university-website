@@ -37,6 +37,7 @@ body {
   color: #ffffff;
   padding: 0;
   min-height: 100%;
+  width: auto;
   background-image: url("../../res/zion.jpg");
   background-size: cover;
   background-position: center center;
@@ -45,6 +46,8 @@ body {
 }
 
 #innerMountains {
+  text-align: center;
   background: rgba(0, 0, 0, 0.3);
-  padding: 350px;
+  padding-top: 350px;
+  padding-bottom: 350px;
 }
